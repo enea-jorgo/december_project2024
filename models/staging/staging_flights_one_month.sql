@@ -2,6 +2,6 @@
 
 WITH flights_one_month AS (
     SELECT *
-    FROM {{ref('flights_filtered')}}
+    FROM {{ref('s_eneajorgo.flights_filtered')}}
 )
 SELECT * FROM flights_one_month
